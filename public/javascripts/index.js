@@ -20,7 +20,7 @@ function initializeCode() {
         logout.innerHTML = "Logout";
         logout.setAttribute("onclick", "logOut()");
         logout.setAttribute("id", "logout");
-        addtodos.setAttribute("id", "add-items");
+        addtodos.setAttribute("id", "add-item");
         addtodos.setAttribute("type", "text");
 
         fetch("/api/private", {
